@@ -9,7 +9,7 @@ const PrivateRoute = ({ component: Component, ...rest }) => {
         <Route
             {...rest}
             render={props => {
-                return currentUser ? <Component {...props} /> : <Redirect to='/react-firebase-auth/login'></Redirect>
+                return currentUser ? <Component {...props} /> : <Redirect to='/firebase-copy/login'></Redirect>
             }}
         ></Route>
     )

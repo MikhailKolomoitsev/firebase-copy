@@ -18,7 +18,7 @@ const Login = () => {
             setError('')
             setLoading(true)
             await login(emailRef.current.value, passwordRef.current.value)
-            history.push('/react-firebase-auth')
+            history.push('/firebase-copy')
         } catch (error) {
             setError(error.message)
         }
@@ -30,7 +30,7 @@ const Login = () => {
             setError('')
             setLoading(true)
             await socialMediaAuth(provider)
-            history.push('/react-firebase-auth')
+            history.push('/firebase-copy')
         } catch (error) {
             setError(error.message)
         }
@@ -55,7 +55,7 @@ const Login = () => {
 
                         <Button type='submit' className='w-100' disabled={loading}>Log In</Button>
                     </Form>
-                    <div className='w-100 text-center mt-2 mb-2'><Link to='/react-firebase-auth/forgot-password'>Forgot Password?</Link></div>
+                    <div className='w-100 text-center mt-2 mb-2'><Link to='/firebase-copy/forgot-password'>Forgot Password?</Link></div>
                     <Button
                         variant="light"
                         onClick={() => handleSocials(facebookProvider)}
@@ -69,7 +69,7 @@ const Login = () => {
                         disabled={loading}>Log In with Google</Button>
                 </Card.Body>
             </Card>
-            <div className='w-100 text-center mt-2'>Need an account? <Link to='/react-firebase-auth/signup'>Sign Up</Link></div>
+            <div className='w-100 text-center mt-2'>Need an account? <Link to='/firebase-copy/signup'>Sign Up</Link></div>
         </>
     )
 }
