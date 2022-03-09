@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "12efe49367ae6f68d45e94b794664b85",
+    "revision": "5ff746368fba23212038948f03b93a51",
     "url": "/firebase-copy/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/firebase-copy/static/js/2.b904ede5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c5a7aae229994c04008c",
-    "url": "/firebase-copy/static/js/main.cdc9a7c5.chunk.js"
+    "revision": "ffc08d18be6558c80db8",
+    "url": "/firebase-copy/static/js/main.24a0f3ed.chunk.js"
   },
   {
     "revision": "9f4a325a82c0d5ff65cc",
